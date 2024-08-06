@@ -4,15 +4,16 @@ This project involves training and fine-tuning a custom object detection model u
 
 ## Features
 * Custom Object Detection: Train models to detect specific objects relevant to your application.
-* Fine-tuned Model: Utilize a YOLOv8{n/s/m/l/x} pretrained model and fine-tune it with your custom data.
+* Fine-tuned Model: Utilize a YOLOv8{n/s/m/l/x} pre-trained model and fine-tune it with your custom data.
 * Versatile Applications: Suitable for a wide range of use cases, including drone footage analysis, security systems, and industrial automation.
 
 
 ## Installation and Setup
 
 1. Clone the repository:
-    git clone https://github.com/yourusername/illegal-dumping-detection.git
-    cd illegal-dumping-detection
+    git clone https://github.com/yaminsadik/ecowatch-yolov8.git
+
+    cd ecowatch-yolov8
     
 
 2. Install the required dependencies:
@@ -21,7 +22,7 @@ This project involves training and fine-tuning a custom object detection model u
 
 ### Dataset Preparation
 
-To prepare your dataset for training with the YOLOv8 model, organize your data into a structured directory format. The root directory should be named `datasets`, containing three subdirectories: `train`, `valid`, and `test`. Each of these subdirectories should further contain two subdirectories: `images` and `labels`. 
+To prepare your dataset for training with the YOLOv8 model, organize your data into a structured directory format. A new directory named `datasets` should be created in the root directory, containing three subdirectories: `train`, `valid`, and `test`. Each of these subdirectories should further contain two subdirectories: `images` and `labels`. 
 
 - The `train` directory will hold your training data, with images placed inside the `images` folder and their corresponding annotation files inside the `labels` folder.
 - The `valid` directory is for your validation data, structured similarly with images and labels in their respective subdirectories.
